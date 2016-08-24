@@ -5,7 +5,6 @@ app.use(express.static('public'));
 var socket_io= require('socket.io');
 var http= require('http');
 const {Wit,log}= require('../').Wit;
-const client= new Wit({accessToken:'3LWGZX64CB5HO7RL2H4H4UCIFHPQ7W47'});
 'use strict';
 
 var server= http.Server(app);
