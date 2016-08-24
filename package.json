@@ -1,15 +1,26 @@
 {
   "name": "chatroom",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Jon",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
+    "node-wit": "^4.1.0",
     "socket.io": "^1.4.8"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HilbertSpaces/Wit-Chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HilbertSpaces/Wit-Chat/issues"
+  },
+  "homepage": "https://github.com/HilbertSpaces/Wit-Chat#readme",
+  "description": ""
 }
