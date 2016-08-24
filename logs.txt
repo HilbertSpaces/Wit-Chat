@@ -1,0 +1,101 @@
+2016-08-24T21:48:20.845478+00:00 app[web.1]: const {Wit,log}= require('node-wit');
+2016-08-24T21:48:20.845480+00:00 app[web.1]: 
+2016-08-24T21:48:20.845474+00:00 app[web.1]: /app/server.js:7
+2016-08-24T21:48:20.845479+00:00 app[web.1]:       ^
+2016-08-24T21:48:20.845487+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-08-24T21:48:20.845488+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-08-24T21:48:20.845486+00:00 app[web.1]:     at Module._compile (module.js:387:25)
+2016-08-24T21:48:20.845489+00:00 app[web.1]:     at Function.Module.runMain (module.js:447:10)
+2016-08-24T21:48:20.845490+00:00 app[web.1]:     at node.js:405:3
+2016-08-24T21:48:20.845488+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-08-24T21:48:20.845489+00:00 app[web.1]:     at startup (node.js:148:18)
+2016-08-24T21:48:20.863751+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2016-08-24T21:48:20.845484+00:00 app[web.1]: SyntaxError: Unexpected token {
+2016-08-24T21:48:20.854706+00:00 app[web.1]: 
+2016-08-24T21:48:20.864870+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-08-24T21:48:20.863986+00:00 app[web.1]: npm ERR! node v5.11.1
+2016-08-24T21:48:20.863321+00:00 app[web.1]: npm ERR! Linux 3.13.0-91-generic
+2016-08-24T21:48:20.865232+00:00 app[web.1]: npm ERR! 
+2016-08-24T21:48:20.865637+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the chatroom package,
+2016-08-24T21:48:20.865373+00:00 app[web.1]: npm ERR! Failed at the chatroom@1.0.0 start script 'node server.js'.
+2016-08-24T21:48:20.865104+00:00 app[web.1]: npm ERR! Exit status 1
+2016-08-24T21:48:20.865001+00:00 app[web.1]: npm ERR! chatroom@1.0.0 start: `node server.js`
+2016-08-24T21:48:20.865877+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-08-24T21:48:20.866012+00:00 app[web.1]: npm ERR!     node server.js
+2016-08-24T21:48:20.865510+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-08-24T21:48:20.866379+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2016-08-24T21:48:20.864435+00:00 app[web.1]: npm ERR! npm  v3.8.6
+2016-08-24T21:48:20.866253+00:00 app[web.1]: npm ERR!     npm bugs chatroom
+2016-08-24T21:48:20.866123+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2016-08-24T21:48:20.845485+00:00 app[web.1]:     at exports.runInThisContext (vm.js:53:16)
+2016-08-24T21:48:20.865752+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-08-24T21:48:20.866607+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-08-24T21:48:20.870831+00:00 app[web.1]: 
+2016-08-24T21:48:20.866486+00:00 app[web.1]: npm ERR!     npm owner ls chatroom
+2016-08-24T21:48:20.870971+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-08-24T21:48:20.871086+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-08-24T21:52:04.850527+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=fast-temple-35020.herokuapp.com request_id=c1282a3f-d535-47c2-951b-660d37b900fb fwd="73.148.217.117" dyno= connect= service= status=503 bytes=
+2016-08-24T21:52:05.072921+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=fast-temple-35020.herokuapp.com request_id=0862e083-1f61-4605-9ca3-b6907b864b17 fwd="73.148.217.117" dyno= connect= service= status=503 bytes=
+2016-08-24T21:54:32.477792+00:00 heroku[slug-compiler]: Slug compilation started
+2016-08-24T21:54:32.477802+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-08-24T21:54:32.215883+00:00 heroku[api]: Deploy dcb1d23 by jktecon@gmail.com
+2016-08-24T21:54:32.215997+00:00 heroku[api]: Release v15 created by jktecon@gmail.com
+2016-08-24T21:54:32.486678+00:00 heroku[web.1]: State changed from crashed to starting
+2016-08-24T21:54:33.973796+00:00 heroku[web.1]: Starting process with command `node server.js`
+2016-08-24T21:54:36.246391+00:00 app[web.1]:       ^
+2016-08-24T21:54:36.246390+00:00 app[web.1]: const {Wit,log}= require('node-wit');
+2016-08-24T21:54:36.246392+00:00 app[web.1]: SyntaxError: Unexpected token {
+2016-08-24T21:54:36.246394+00:00 app[web.1]:     at Module._compile (module.js:387:25)
+2016-08-24T21:54:36.246392+00:00 app[web.1]: 
+2016-08-24T21:54:36.246393+00:00 app[web.1]:     at exports.runInThisContext (vm.js:53:16)
+2016-08-24T21:54:36.246394+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-08-24T21:54:36.246396+00:00 app[web.1]:     at Function.Module.runMain (module.js:447:10)
+2016-08-24T21:54:36.246395+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-08-24T21:54:36.246396+00:00 app[web.1]:     at startup (node.js:148:18)
+2016-08-24T21:54:36.246377+00:00 app[web.1]: /app/server.js:7
+2016-08-24T21:54:36.246397+00:00 app[web.1]:     at node.js:405:3
+2016-08-24T21:54:36.246395+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-08-24T21:54:36.355825+00:00 heroku[web.1]: State changed from starting to crashed
+2016-08-24T21:54:36.321062+00:00 heroku[web.1]: Process exited with status 1
+2016-08-24T21:55:31.931887+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=fast-temple-35020.herokuapp.com request_id=39808ddd-87d0-4d50-a9a2-839e082bb425 fwd="73.148.217.117" dyno= connect= service= status=503 bytes=
+2016-08-24T21:55:32.188329+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=fast-temple-35020.herokuapp.com request_id=e3e59805-71b8-4d10-b452-b4e14b89a22c fwd="73.148.217.117" dyno= connect= service= status=503 bytes=
+2016-08-24T22:00:16.826914+00:00 heroku[api]: Release v16 created by jktecon@gmail.com
+2016-08-24T22:00:16.826791+00:00 heroku[api]: Deploy 4a0f622 by jktecon@gmail.com
+2016-08-24T22:00:17.231948+00:00 heroku[slug-compiler]: Slug compilation started
+2016-08-24T22:00:17.231959+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-08-24T22:00:17.108681+00:00 heroku[web.1]: State changed from crashed to starting
+2016-08-24T22:00:18.575307+00:00 heroku[web.1]: Starting process with command `node server.js`
+2016-08-24T22:00:21.020859+00:00 app[web.1]: const {Wit,log}= require('node-wit');
+2016-08-24T22:00:21.020861+00:00 app[web.1]: 
+2016-08-24T22:00:21.020860+00:00 app[web.1]:       ^
+2016-08-24T22:00:21.020866+00:00 app[web.1]: SyntaxError: Unexpected token {
+2016-08-24T22:00:21.020867+00:00 app[web.1]:     at Module._compile (module.js:387:25)
+2016-08-24T22:00:21.020867+00:00 app[web.1]:     at exports.runInThisContext (vm.js:53:16)
+2016-08-24T22:00:21.020868+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-08-24T22:00:21.020839+00:00 app[web.1]: /app/server.js:7
+2016-08-24T22:00:21.020869+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-08-24T22:00:21.020871+00:00 app[web.1]:     at startup (node.js:148:18)
+2016-08-24T22:00:21.020871+00:00 app[web.1]:     at node.js:405:3
+2016-08-24T22:00:21.020870+00:00 app[web.1]:     at Function.Module.runMain (module.js:447:10)
+2016-08-24T22:00:21.020869+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-08-24T22:00:21.135145+00:00 heroku[web.1]: Process exited with status 1
+2016-08-24T22:00:21.154132+00:00 heroku[web.1]: State changed from starting to crashed
+2016-08-24T22:00:21.155161+00:00 heroku[web.1]: State changed from crashed to starting
+2016-08-24T22:00:22.667438+00:00 heroku[web.1]: Starting process with command `node server.js`
+2016-08-24T22:00:24.758874+00:00 heroku[web.1]: Process exited with status 1
+2016-08-24T22:00:24.658214+00:00 app[web.1]:       ^
+2016-08-24T22:00:24.658215+00:00 app[web.1]: 
+2016-08-24T22:00:24.658201+00:00 app[web.1]: /app/server.js:7
+2016-08-24T22:00:24.658214+00:00 app[web.1]: const {Wit,log}= require('node-wit');
+2016-08-24T22:00:24.658216+00:00 app[web.1]: SyntaxError: Unexpected token {
+2016-08-24T22:00:24.658216+00:00 app[web.1]:     at exports.runInThisContext (vm.js:53:16)
+2016-08-24T22:00:24.658217+00:00 app[web.1]:     at Module._compile (module.js:387:25)
+2016-08-24T22:00:24.658218+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-08-24T22:00:24.658218+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-08-24T22:00:24.658219+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-08-24T22:00:24.658219+00:00 app[web.1]:     at Function.Module.runMain (module.js:447:10)
+2016-08-24T22:00:24.658220+00:00 app[web.1]:     at startup (node.js:148:18)
+2016-08-24T22:00:24.658220+00:00 app[web.1]:     at node.js:405:3
+2016-08-24T22:00:24.772915+00:00 heroku[web.1]: State changed from starting to crashed
+2016-08-24T22:00:30.510592+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=fast-temple-35020.herokuapp.com request_id=9467c118-1d64-44e5-b959-9e422d94beb5 fwd="73.148.217.117" dyno= connect= service= status=503 bytes=
+2016-08-24T22:00:30.750550+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=fast-temple-35020.herokuapp.com request_id=1120175b-1630-4e5e-a91f-810b165be1ae fwd="73.148.217.117" dyno= connect= service= status=503 bytes=
