@@ -10,7 +10,7 @@ const client= new Wit({accessToken:'3LWGZX64CB5HO7RL2H4H4UCIFHPQ7W47'});
 'use strict';
 
 var server= http.Server(app);
-var io= socket_io(server);
+const io= socketIO(server);
 io.on('connection', function(socket){
 	console.log('Client connected');
 	socket.on('message', function(message){
@@ -21,5 +21,5 @@ io.on('connection', function(socket){
 		});
 	});
 });
-server.listen(8080);
+server.listen(PORT);
 console.log("listening on...8080");
