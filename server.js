@@ -5,6 +5,7 @@ app.use(express.static('public'));
 var socket_io= require('socket.io');
 var http= require('http');
 const {Wit,log}= require('../').Wit;
+
 'use strict';
 
 var server= http.Server(app);
@@ -19,5 +20,5 @@ io.on('connection', function(socket){
 		});
 	});
 });
-server.listen(process.env.port || 8080, process.env.IP);
+server.listen(process.env.PORT || 8080, process.env.IP);
 console.log("listening on..."+process.env.PORT);
