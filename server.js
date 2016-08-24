@@ -4,8 +4,7 @@ var app=express();
 app.use(express.static('public'));
 var socket_io= require('socket.io');
 var http= require('http');
-app.use(express.static('public'));
-const {Wit,log}= require('node-wit');
+const {Wit,log}= require('../').Wit;
 const client= new Wit({accessToken:'3LWGZX64CB5HO7RL2H4H4UCIFHPQ7W47'});
 'use strict';
 
