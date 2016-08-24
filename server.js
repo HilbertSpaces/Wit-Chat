@@ -20,5 +20,5 @@ io.on('connection', function(socket){
 		});
 	});
 });
-server.listen(process.env.port, process.env.IP);
+server.listen(process.env.port || 8080, process.env.IP);
 console.log("listening on..."+process.env.PORT);
