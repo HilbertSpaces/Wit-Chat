@@ -4,7 +4,7 @@ var app=express();
 app.use(express.static('public'));
 var socket_io= require('socket.io');
 var http= require('http');
-const {Wit,log}= require('../').Wit;
+const {Wit,log}= require('node-wit');
 
 'use strict';
 
