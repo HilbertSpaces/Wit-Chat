@@ -24,4 +24,7 @@
   "homepage": "https://github.com/HilbertSpaces/Wit-Chat#readme",
   "keywords": [],
   "description": ""
+"engines": {
+    "node": "6.2.2"
+  }
 }
